@@ -1,0 +1,250 @@
+p{
+    text-align: center;
+    font-family: MontSerrat;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .model{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 15px;
+  }
+
+  .touch{
+    text-decoration: underline;
+  }
+  
+  .search-box{
+    width: 500px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200,200,200);
+    margin-left: 15px;
+    margin-right: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .tweet{
+    background-color: #ec7803df;
+    border-radius: 50px;
+    border-color: #ec7803df;
+    border:none;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor:pointer;
+    vertical-align: middle;
+  }
+
+
+.name{
+font-size: 18px;
+font-weight: bold;
+font-family: arial;
+color:black;
+margin-left: 8px;
+margin-bottom: 5px;
+}
+
+.mutual{
+color:rgb(136, 136, 136);
+}
+
+.friend-button{
+background-color: #ec7803df;
+border-radius: 4px;
+border:none;
+margin-left: 8px;
+margin-right: 8px;
+margin-bottom: 10px;
+color:white;
+font-size: 16px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+position: absolute; 
+bottom: 0;
+}
+
+.profile-picture {
+width: 250px;
+height: 250px;
+object-fit: cover;
+margin-bottom: 12px;
+}
+
+.design{
+margin-right: 15px;
+box-shadow: 0 0 5px rgba(54, 54, 54, 0.5);
+width: 250px;
+height: 500px;;
+
+position: relative;
+}
+
+.mutual-friends-row{
+display: grid;
+align-items: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div{
+width: 300px;
+text-align: center;
+}
+
+.last-div{
+  
+text-align: center;
+
+}
+
+.footer {
+  background-color: #ec7803df; 
+  color: black; 
+  height: 70px; 
+  display: flex; 
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; 
+  
+
+}
+
+.footer a {
+  color: black; /* Set the link color */
+  text-decoration: none; /* Remove the underline */
+  margin: 0 10px; /* Add some margin between the links */
+  text-align: center;
+  font-family: MontSerrat;
+
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Add an underline on hover */
+}
+
+
+
+
+
+.right-section{
+  margin-right: 20px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.upload-icon{
+  height: 24px;
+}
+
+.youtube-apps-icon{
+  height: 24px;
+}
+
+.notifications-icon-container{
+  position: relative;
+
+}
+
+.notifications-icon{
+  height: 24px;
+}
+
+.notifications-counter{
+  background-color: rgb(180, 2, 2);
+  color: white;
+  position: absolute;
+  top:-2px;
+  right: -5px;
+  font-size: 11px;
+  padding:2px 5px;
+  border-radius: 10px;
+
+}
+
+.current-user-picture{
+  height: 32px;
+  border-radius: 16px;
+}
+
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+  z-index:100;
+  height: 55px;
+  background-color: #ec7803df;
+  border-bottom-width: 1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(207, 205, 205);
+}
+
+.upload-icon-container,
+.notifications-icon-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-icon-container .tooltip,
+.notifications-icon-container .tooltip {
+  position: absolute;
+  background-color: gray;
+  color:white;
+  font-size: 12px;
+  padding:10px 8px;
+  font-family: MontSerrat;
+  
+  border-radius: 2px;
+  bottom:-48px;
+
+  opacity:0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+
+}
+
+.upload-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip{
+  opacity:1;
+}
+
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+

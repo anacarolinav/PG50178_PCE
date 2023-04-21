@@ -1,0 +1,38 @@
+{
+    "number_of_sensors": 5,
+    "sensorid": 3001,
+    "sensornum": 1,
+    "type_of_sensor": "cardiac",
+    "patient": {
+        "patientid": 101,
+        "patientname": "Rui Turquel",
+        "patientbirthdate": "1953-10-20",
+        "patientage": 65
+    },
+    "servicecod": "UCI-II",
+    "servicedesc": "Unidade de Cuidados Intensivos - II",
+    "admdate": "2020-10-20",
+    "bed": "014",
+    "bodytemp": 38,
+    "bloodpress": {
+        "systolic": 124,
+        "diastolic": 99
+    },
+    "bpm": 108,
+    "sato2": 97,
+    "timestamp": "2023-03-24 10:52:29",
+    "careteam": [
+        {
+            "id": 39887,
+            "nome": "Dr. Alanna Shields"
+        },
+        {
+            "id": 28873,
+            "nome": "Dr.Tanya Crawford"
+        },
+        {
+            "id": 332345,
+            "nome": "Dr. Salman Wu"
+        }
+    ]
+}
